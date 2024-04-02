@@ -5,7 +5,7 @@ import QuoteMachine from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 
-const root = ReactDOM.createRoot(document.querySelector('body'));
+const root = ReactDOM.createRoot(document.querySelector('#root'));
 root.render(
   <React.StrictMode>
     <QuoteMachine />
